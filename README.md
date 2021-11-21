@@ -1,8 +1,8 @@
-# Nitrogen
+# Pheonix
 
-> *stealth mode activated*
+> *Securly iz dum*
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/coderkidsalt/Nitrogen/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/c0d3rb0y/Pheonix/)
 
 ## Site compatibility
 
