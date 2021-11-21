@@ -1,0 +1,11 @@
+{
+    "name": "Nitrogen",
+    "description": "bye bye securly",
+    "repository": "https://github.com/coderkidsalt/Nitrogen",
+    "logo": "https://raw.githubusercontent.com/coderkidsalt/Womcookie/master/public/coki.png",
+    "keywords": [
+        "nginx",
+        "docker"
+    ],
+    "stack": "container"
+}

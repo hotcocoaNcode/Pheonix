@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="shortcut icon" type="image/png" href="googleclasroom.png" />
+    <title>Google Classroom</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <img src="coki.png" width="250" height="250">
+            <br>
+            <script>
+                function go() {
+                    var input = document.getElementById('url-target');
+                    if (input.value) {
+                        window.open('/main/' + input.value, '_self');
+                    } else {
+                        window.open('/main/https://discord.com/login', '_self');
+                    }
+                }
+            </script>
+            <span class="w3-xlarge">Nitrogen </span>
+            <br>
+            <br>
+            <span class="w3-large">Select the text box and press enter to go to discord </span>
+            <br>
+            <span class="w3-medium">youtube is broken, sorry about that </span>
+            <div>
+                <input class="w3-xlarge" type='text' placeholder='discord.com/login' id='url-target' onkeydown='if(event.key==="Enter") go()'/>
+            </div>
+            <br>
+            <span class="w3-medium"><a href="games.html">Games</a> </span>
+            </p>
+            <p class="w3-medium">Powered by Heroku - v1.3 - Securly kinda sucks :p</p>
+        </div>
+    </div>
+</body>
+
+</html>
