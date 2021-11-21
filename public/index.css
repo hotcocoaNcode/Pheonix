@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-    background: linear-gradient(-45deg, #FF0000, #FFFF00, #1F51FF, #FF10F0);
+    background: linear-gradient(-45deg, #000428, #004e92);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     font-family: "Ubuntu";
