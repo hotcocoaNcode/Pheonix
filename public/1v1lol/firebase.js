@@ -1,13 +1,13 @@
 function initializeFireBase(){
 	// Your web app's Firebase configuration
 	var firebaseConfig = {
-	apiKey: "AIzaSyBPrAfspM9RFxuNuDtSyaOZ5YRjDBNiq5I",
-	authDomain: "1v1.lol",
-	databaseURL: "https://justbuild-cdb86.firebaseio.com",
-	projectId: "justbuild-cdb86",
-	storageBucket: "justbuild-cdb86.appspot.com",
-	messagingSenderId: "93158914000",
-	appId: "1:93158914000:web:e73a8b453338ab7c"
+		apiKey: "AIzaSyBHERbD4inX8pGkf36fhWISV7cvFwQpQN4",
+		authDomain: "hostserver-1v1lol.firebaseapp.com",
+		projectId: "hostserver-1v1lol",
+		storageBucket: "hostserver-1v1lol.appspot.com",
+		messagingSenderId: "213346381613",
+		appId: "1:213346381613:web:ea75d06b724188ae166da4",
+		measurementId: "G-3FBWFP7JXQ"
 	};
 	// Initialize Firebase
 	firebase.initializeApp(firebaseConfig);
