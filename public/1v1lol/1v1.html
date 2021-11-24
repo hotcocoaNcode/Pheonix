@@ -244,14 +244,14 @@
 	<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-auth.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-firestore.js"></script>
 
-	<script src="firebase.js?v=%ciVersion%"></script>
-	<script src="login.js?v=%ciVersion%"></script>
-	<script src="fireStore.js?v=%ciVersion%"></script>
+	<script src="firebase.js?"></script>
+	<script src="login.js?"></script>
+	<script src="fireStore.js?"></script>
 
 	<script>
 		var hostname = window.location.hostname;
 		if(hostname.indexOf("dev1v1") >= 0 || hostname.indexOf("dev.1v1") >= 0){
-			initializeFireBaseDev();
+			initializeFireBase();
 		} else{
 			initializeFireBase();
 		}
