@@ -25,8 +25,42 @@ body {
     }
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    font-family: "Ubuntu";
+    float: left;
+  }
+  
+  li p {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
 .container {
-    margin-top: 10%;
+    margin-top: 5%;
     font-family: "Ubuntu";
     font-size: "50px";
     color: #FFF;
