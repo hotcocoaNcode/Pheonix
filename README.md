@@ -4,6 +4,11 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/c0d3rb0y/Pheonix/)
 
+
+This is just a Womginx environment with games added
+Maybe arc.io soon?
+
+
 ## Site compatibility
 
 What works:
